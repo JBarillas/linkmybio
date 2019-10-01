@@ -35,7 +35,7 @@ def home():
     foo="bar"
     return render_template("home.html", mivariable=foo,developer=developer)
 
-@app.route("/Alumnos")
+@app.route("/Academic Information")
 def api_students():
     return jsonify(alumnos)
 
